@@ -7,3 +7,12 @@ C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_shar
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.AssemblyInfo.cs
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.dll
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.pdb
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\bin\Debug\netstandard2.0\Logic_cSharp.deps.json
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\bin\Debug\netstandard2.0\Logic_cSharp.dll
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\bin\Debug\netstandard2.0\Logic_cSharp.pdb
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.csprojResolveAssemblyReference.cache
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.csproj.CoreCompileInputs.cache
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.AssemblyInfoInputs.cache
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.AssemblyInfo.cs
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.dll
+C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\Logic_cSharp\obj\Debug\netstandard2.0\Logic_cSharp.pdb

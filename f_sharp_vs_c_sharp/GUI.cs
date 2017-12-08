@@ -30,10 +30,33 @@ namespace f_sharp_vs_c_sharp
 
             if (cLogic != null && fLogic != null)
             {
-                lbl_cLogic.Text = "C# logic class instantiated!";
-                lbl_fLogic.Text = "F# logic class instantiated!";
+                //lbl_cLogic.Text = "C# logic class instantiated!";
+                //lbl_fLogic.Text = "F# logic class instantiated!";
             }
         }
 
+        
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReverce_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+
+
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
