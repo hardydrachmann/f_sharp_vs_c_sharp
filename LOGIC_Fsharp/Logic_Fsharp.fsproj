@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>75ecd712-1dc0-48d3-9b4a-b9d4e7d64fa4</ProjectGuid>
+    <ProjectGuid>3d0276af-a599-4e73-afc2-5fa1ed52a741</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>LOGIC_Fsharp</RootNamespace>
-    <AssemblyName>LOGIC_Fsharp</AssemblyName>
+    <RootNamespace>Logic_fSharp</RootNamespace>
+    <AssemblyName>Logic_fSharp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>Logic_Fsharp</Name>
+    <Name>Logic_fSharp</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,7 +51,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Logic_Fsharp.fs" />
+    <Compile Include="Flogic.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
   </ItemGroup>

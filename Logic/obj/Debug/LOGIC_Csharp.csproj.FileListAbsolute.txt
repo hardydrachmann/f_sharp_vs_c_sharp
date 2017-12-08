@@ -1,5 +1,0 @@
-C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic\bin\Debug\Logic.dll
-C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic\bin\Debug\Logic.pdb
-C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic\obj\Debug\LOGIC_Csharp.csproj.CoreCompileInputs.cache
-C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic\obj\Debug\Logic.dll
-C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic\obj\Debug\Logic.pdb

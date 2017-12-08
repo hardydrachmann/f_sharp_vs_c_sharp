@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form.cs">
+    <Compile Include="GUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form.Designer.cs">
-      <DependentUpon>Form.cs</DependentUpon>
+    <Compile Include="GUI.Designer.cs">
+      <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form.resx">
-      <DependentUpon>Form.cs</DependentUpon>
+    <EmbeddedResource Include="GUI.resx">
+      <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,13 +79,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logic\Logic_Csharp.csproj">
-      <Project>{b9f25c20-f25b-4ee9-8374-4de4d0955058}</Project>
-      <Name>Logic_Csharp</Name>
+    <ProjectReference Include="..\Logic_cSharp\Logic_cSharp.csproj">
+      <Project>{a61a3144-1324-488d-a656-44f85260485b}</Project>
+      <Name>Logic_cSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LOGIC_Fsharp\Logic_Fsharp.fsproj">
-      <Project>{75ecd712-1dc0-48d3-9b4a-b9d4e7d64fa4}</Project>
-      <Name>Logic_Fsharp</Name>
+    <ProjectReference Include="..\Logic_fSharp\Logic_fSharp.fsproj">
+      <Project>{3d0276af-a599-4e73-afc2-5fa1ed52a741}</Project>
+      <Name>Logic_fSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

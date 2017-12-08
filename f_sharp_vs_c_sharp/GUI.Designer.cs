@@ -1,6 +1,6 @@
 ﻿namespace f_sharp_vs_c_sharp
 {
-    partial class Form
+    partial class GUI
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@
             // lbl_cLogic
             // 
             this.lbl_cLogic.AutoSize = true;
-            this.lbl_cLogic.Location = new System.Drawing.Point(49, 13);
+            this.lbl_cLogic.Location = new System.Drawing.Point(13, 13);
             this.lbl_cLogic.Name = "lbl_cLogic";
             this.lbl_cLogic.Size = new System.Drawing.Size(46, 17);
             this.lbl_cLogic.TabIndex = 0;
@@ -44,21 +44,21 @@
             // lbl_fLogic
             // 
             this.lbl_fLogic.AutoSize = true;
-            this.lbl_fLogic.Location = new System.Drawing.Point(52, 54);
+            this.lbl_fLogic.Location = new System.Drawing.Point(13, 34);
             this.lbl_fLogic.Name = "lbl_fLogic";
             this.lbl_fLogic.Size = new System.Drawing.Size(46, 17);
             this.lbl_fLogic.TabIndex = 1;
             this.lbl_fLogic.Text = "label2";
             // 
-            // Form
+            // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 658);
+            this.ClientSize = new System.Drawing.Size(282, 253);
             this.Controls.Add(this.lbl_fLogic);
             this.Controls.Add(this.lbl_cLogic);
-            this.Name = "Form";
-            this.Text = "Form1";
+            this.Name = "GUI";
+            this.Text = "GUI";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,4 +70,3 @@
         private System.Windows.Forms.Label lbl_fLogic;
     }
 }
-

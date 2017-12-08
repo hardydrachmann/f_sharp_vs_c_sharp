@@ -2,7 +2,7 @@
 // for more guidance on F# programming.
 
 #load "Library1.fs"
-open LOGIC_Fsharp
+open Logic_fSharp
 
 // Define your library scripting code here
 

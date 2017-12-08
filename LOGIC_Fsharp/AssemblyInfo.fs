@@ -1,4 +1,4 @@
-﻿namespace LOGIC_Fsharp.AssemblyInfo
+﻿namespace Logic_fSharp.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("LOGIC_Fsharp")>]
+[<assembly: AssemblyTitle("Logic_fSharp")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("LOGIC_Fsharp")>]
+[<assembly: AssemblyProduct("Logic_fSharp")>]
 [<assembly: AssemblyCopyright("Copyright ©  2017")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("75ecd712-1dc0-48d3-9b4a-b9d4e7d64fa4")>]
+[<assembly: Guid("3d0276af-a599-4e73-afc2-5fa1ed52a741")>]
 
 // Version information for an assembly consists of the following four values:
 // 

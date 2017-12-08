@@ -1,12 +1,14 @@
-﻿using System;
+﻿using f_sharp_vs_c_sharp;
+using Logic_cSharp;
+using Logic_fSharp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
     static class Program
-    {       
+    {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -15,15 +17,6 @@ using System.Windows.Forms;
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
-
-        // Instantiate logic classes
-        initLogic();
-    }
-
-    private static void initLogic()
-    {
-        Logic_Csharp cLogic = new Logic_Csharp();
-        Logic_Fsharp fLogic = new Logic_Fsharp();
+            Application.Run(new GUI());
     }
 }
