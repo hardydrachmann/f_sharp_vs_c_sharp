@@ -16,3 +16,4 @@ C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_shar
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_fSharp\obj\Debug\Logic_fSharp.fsproj.CoreCompileInputs.cache
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_fSharp\obj\Debug\Logic_fSharp.dll
 C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_fSharp\obj\Debug\Logic_fSharp.pdb
+C:\Users\Hardy Drachmann\Documents\Visual Studio 2017\Projects\f_sharp_vs_c_sharp\Logic_fSharp\obj\Debug\Logic_fSharp.fsprojResolveAssemblyReference.cache

@@ -37,11 +37,11 @@
             this.btnCalculate = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.lblCalculating = new System.Windows.Forms.Label();
-            this.RevercePanel = new System.Windows.Forms.Panel();
+            this.ReversePanel = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblReverceC = new System.Windows.Forms.Label();
-            this.lblReverceF = new System.Windows.Forms.Label();
+            this.lblReverseC = new System.Windows.Forms.Label();
+            this.lblReverseF = new System.Windows.Forms.Label();
             this.btnReverse = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             this.tbListLength = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.CalculatePanel.SuspendLayout();
-            this.RevercePanel.SuspendLayout();
+            this.ReversePanel.SuspendLayout();
             this.SortingPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -164,22 +164,22 @@
             this.lblCalculating.TabIndex = 4;
             this.lblCalculating.Text = "Calculation";
             // 
-            // RevercePanel
+            // ReversePanel
             // 
-            this.RevercePanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.RevercePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RevercePanel.Controls.Add(this.label15);
-            this.RevercePanel.Controls.Add(this.panel2);
-            this.RevercePanel.Controls.Add(this.lblReverceC);
-            this.RevercePanel.Controls.Add(this.lblReverceF);
-            this.RevercePanel.Controls.Add(this.btnReverse);
-            this.RevercePanel.Controls.Add(this.label3);
-            this.RevercePanel.Controls.Add(this.label2);
-            this.RevercePanel.Controls.Add(this.lblReverse);
-            this.RevercePanel.Location = new System.Drawing.Point(12, 274);
-            this.RevercePanel.Name = "RevercePanel";
-            this.RevercePanel.Size = new System.Drawing.Size(409, 175);
-            this.RevercePanel.TabIndex = 3;
+            this.ReversePanel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ReversePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ReversePanel.Controls.Add(this.label15);
+            this.ReversePanel.Controls.Add(this.panel2);
+            this.ReversePanel.Controls.Add(this.lblReverseC);
+            this.ReversePanel.Controls.Add(this.lblReverseF);
+            this.ReversePanel.Controls.Add(this.btnReverse);
+            this.ReversePanel.Controls.Add(this.label3);
+            this.ReversePanel.Controls.Add(this.label2);
+            this.ReversePanel.Controls.Add(this.lblReverse);
+            this.ReversePanel.Location = new System.Drawing.Point(12, 274);
+            this.ReversePanel.Name = "ReversePanel";
+            this.ReversePanel.Size = new System.Drawing.Size(409, 175);
+            this.ReversePanel.TabIndex = 3;
             // 
             // label15
             // 
@@ -199,25 +199,25 @@
             this.panel2.Size = new System.Drawing.Size(10, 148);
             this.panel2.TabIndex = 21;
             // 
-            // lblReverceC
+            // lblReverseC
             // 
-            this.lblReverceC.AutoSize = true;
-            this.lblReverceC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReverceC.Location = new System.Drawing.Point(296, 117);
-            this.lblReverceC.Name = "lblReverceC";
-            this.lblReverceC.Size = new System.Drawing.Size(36, 16);
-            this.lblReverceC.TabIndex = 20;
-            this.lblReverceC.Text = "0 ms";
+            this.lblReverseC.AutoSize = true;
+            this.lblReverseC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReverseC.Location = new System.Drawing.Point(296, 117);
+            this.lblReverseC.Name = "lblReverseC";
+            this.lblReverseC.Size = new System.Drawing.Size(36, 16);
+            this.lblReverseC.TabIndex = 20;
+            this.lblReverseC.Text = "0 ms";
             // 
-            // lblReverceF
+            // lblReverseF
             // 
-            this.lblReverceF.AutoSize = true;
-            this.lblReverceF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReverceF.Location = new System.Drawing.Point(296, 71);
-            this.lblReverceF.Name = "lblReverceF";
-            this.lblReverceF.Size = new System.Drawing.Size(36, 16);
-            this.lblReverceF.TabIndex = 19;
-            this.lblReverceF.Text = "0 ms";
+            this.lblReverseF.AutoSize = true;
+            this.lblReverseF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReverseF.Location = new System.Drawing.Point(296, 71);
+            this.lblReverseF.Name = "lblReverseF";
+            this.lblReverseF.Size = new System.Drawing.Size(36, 16);
+            this.lblReverseF.TabIndex = 19;
+            this.lblReverseF.Text = "0 ms";
             // 
             // btnReverse
             // 
@@ -427,7 +427,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.SortingPanel);
-            this.Controls.Add(this.RevercePanel);
+            this.Controls.Add(this.ReversePanel);
             this.Controls.Add(this.CalculatePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -436,8 +436,8 @@
             this.Text = "F# VS C#";
             this.CalculatePanel.ResumeLayout(false);
             this.CalculatePanel.PerformLayout();
-            this.RevercePanel.ResumeLayout(false);
-            this.RevercePanel.PerformLayout();
+            this.ReversePanel.ResumeLayout(false);
+            this.ReversePanel.PerformLayout();
             this.SortingPanel.ResumeLayout(false);
             this.SortingPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -447,7 +447,7 @@
 
         #endregion
         private System.Windows.Forms.Panel CalculatePanel;
-        private System.Windows.Forms.Panel RevercePanel;
+        private System.Windows.Forms.Panel ReversePanel;
         private System.Windows.Forms.Panel SortingPanel;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label1;
@@ -465,8 +465,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lblCalculateC;
         private System.Windows.Forms.Label lblCalculateF;
-        private System.Windows.Forms.Label lblReverceC;
-        private System.Windows.Forms.Label lblReverceF;
+        private System.Windows.Forms.Label lblReverseC;
+        private System.Windows.Forms.Label lblReverseF;
         private System.Windows.Forms.Label lblSortingC;
         private System.Windows.Forms.Label lblSortingF;
         private System.Windows.Forms.Panel panel3;
