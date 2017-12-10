@@ -17,7 +17,7 @@ namespace f_sharp_vs_c_sharp
 
         // Logic functionality.
         private void btnSort_Click(object sender, EventArgs e)
-        {
+        {  
             startTime();
             FLogic.quicksort(FSList());
             lblSortingF.Text = timeElapsed();
@@ -42,11 +42,11 @@ namespace f_sharp_vs_c_sharp
         {
             startTime();
             //FLogic.calculate(FSList());
-            lblReverseF.Text = timeElapsed();
+            lblCalculateF.Text = timeElapsed();
 
             startTime();
             //CLogic.calculate(CSList());
-            lblReverseC.Text = timeElapsed();
+            lblCalculateC.Text = timeElapsed();
         }
 
 

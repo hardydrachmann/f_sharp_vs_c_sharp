@@ -76,7 +76,7 @@
             this.CalculatePanel.Controls.Add(this.btnCalculate);
             this.CalculatePanel.Controls.Add(this.label7);
             this.CalculatePanel.Location = new System.Drawing.Point(16, 560);
-            this.CalculatePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CalculatePanel.Margin = new System.Windows.Forms.Padding(4);
             this.CalculatePanel.Name = "CalculatePanel";
             this.CalculatePanel.Size = new System.Drawing.Size(545, 215);
             this.CalculatePanel.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel3.Location = new System.Drawing.Point(296, 11);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(13, 185);
             this.panel3.TabIndex = 20;
@@ -141,7 +141,7 @@
             this.btnCalculate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculate.Location = new System.Drawing.Point(83, 98);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(115, 50);
             this.btnCalculate.TabIndex = 3;
@@ -172,7 +172,7 @@
             this.ReversePanel.Controls.Add(this.label3);
             this.ReversePanel.Controls.Add(this.label2);
             this.ReversePanel.Location = new System.Drawing.Point(16, 337);
-            this.ReversePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReversePanel.Margin = new System.Windows.Forms.Padding(4);
             this.ReversePanel.Name = "ReversePanel";
             this.ReversePanel.Size = new System.Drawing.Size(545, 215);
             this.ReversePanel.TabIndex = 3;
@@ -192,7 +192,7 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(296, 14);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(13, 182);
             this.panel2.TabIndex = 21;
@@ -226,7 +226,7 @@
             this.btnReverse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReverse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReverse.Location = new System.Drawing.Point(83, 87);
-            this.btnReverse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReverse.Margin = new System.Windows.Forms.Padding(4);
             this.btnReverse.Name = "btnReverse";
             this.btnReverse.Size = new System.Drawing.Size(115, 50);
             this.btnReverse.TabIndex = 2;
@@ -268,7 +268,7 @@
             this.SortingPanel.Controls.Add(this.btnSort);
             this.SortingPanel.Controls.Add(this.label5);
             this.SortingPanel.Location = new System.Drawing.Point(16, 114);
-            this.SortingPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SortingPanel.Margin = new System.Windows.Forms.Padding(4);
             this.SortingPanel.Name = "SortingPanel";
             this.SortingPanel.Size = new System.Drawing.Size(545, 215);
             this.SortingPanel.TabIndex = 4;
@@ -288,7 +288,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel1.Location = new System.Drawing.Point(296, 12);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(13, 186);
             this.panel1.TabIndex = 22;
@@ -333,7 +333,7 @@
             this.btnSort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSort.Location = new System.Drawing.Point(83, 89);
-            this.btnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(4);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(115, 50);
             this.btnSort.TabIndex = 1;
@@ -359,7 +359,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(511, 13);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(49, 33);
             this.btnExit.TabIndex = 4;
@@ -370,13 +370,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("NEOLITH", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(69, 9);
+            this.label1.Location = new System.Drawing.Point(69, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(2);
-            this.label1.Size = new System.Drawing.Size(146, 53);
+            this.label1.Size = new System.Drawing.Size(149, 42);
             this.label1.TabIndex = 6;
             this.label1.Text = "F# vs C#";
             // 
@@ -395,7 +395,7 @@
             // 
             this.tbListLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbListLength.Location = new System.Drawing.Point(344, 75);
-            this.tbListLength.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbListLength.Margin = new System.Windows.Forms.Padding(4);
             this.tbListLength.Name = "tbListLength";
             this.tbListLength.Size = new System.Drawing.Size(216, 30);
             this.tbListLength.TabIndex = 8;
