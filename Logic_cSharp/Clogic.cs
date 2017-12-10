@@ -7,7 +7,7 @@ namespace Logic_cSharp
     {
         public static List<int> Sort(List<int> list)
         {
-            Quicksort(list.ToArray(), 0, list.Count);
+            Quicksort(list.ToArray(), 0, list.Count - 1);
             return list;
         }
 
@@ -43,7 +43,7 @@ namespace Logic_cSharp
         public static List<int> Reverse(List<int> list)
         {
             int[] array = new int[list.Count];
-            int i = array.Length;
+            int i = array.Length - 1;
             foreach (int val in list)
                 array[i--] = val;
 
