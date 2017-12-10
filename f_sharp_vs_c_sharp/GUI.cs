@@ -10,40 +10,43 @@ namespace f_sharp_vs_c_sharp
 {
     public partial class GUI : Form
     {
-        private Clogic cLogic;
-
         public GUI()
         {
             InitializeComponent();
-            cLogic = new Clogic();
         }
 
         // Logic functionality.
         private void btnSort_Click(object sender, EventArgs e)
         {
-            FSharpList<int> list = generateCompatibleList();
+            startTime();
+            FLogic.quicksort(FSList());
+            lblSortingF.Text = timeElapsed();
 
             startTime();
-            FLogic.quicksort(list);
-            lblSortingF.Text = timeElapsed();
+            Clogic.Sort(CSList());
+            lblSortingC.Text = timeElapsed();
         }
 
         private void btnReverse_Click(object sender, EventArgs e)
         {
-            FSharpList<int> list = generateCompatibleList();
+            startTime();
+            FLogic.reverse(FSList());
+            lblReverseF.Text = timeElapsed();
 
             startTime();
-            FLogic.reverse(list);
-            lblReverseF.Text = timeElapsed();
+            Clogic.Reverse(CSList());
+            lblReverseC.Text = timeElapsed();
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            FSharpList<int> list = generateCompatibleList();
+            startTime();
+            //FLogic.calculate(FSList());
+            lblReverseF.Text = timeElapsed();
 
             startTime();
-            //FLogic.calculate(list);
-            lblReverseF.Text = timeElapsed();
+            //CLogic.calculate(CSList());
+            lblReverseC.Text = timeElapsed();
         }
 
 
@@ -54,7 +57,17 @@ namespace f_sharp_vs_c_sharp
         }
 
         // Helper methods.
-        private FSharpList<int> generateCompatibleList()
+        private FSharpList<int> FSList()
+        {
+            return (FSharpList<int>)generateCompatibleList(true);
+        }
+
+        private List<int> CSList()
+        {
+            return (List<int>)generateCompatibleList(false);
+        }
+
+        private IEnumerable<int> generateCompatibleList(bool fs)
         {
             int length = int.Parse(tbListLength.Text);
             Random random = new Random();
@@ -62,7 +75,9 @@ namespace f_sharp_vs_c_sharp
             for (int i = 0; i < length; i++)
                 csList.Add(random.Next(100));
 
-            return ListModule.OfSeq(csList);
+            if (fs)
+                return ListModule.OfSeq(csList);
+            else return csList;
         }
 
         // Timer

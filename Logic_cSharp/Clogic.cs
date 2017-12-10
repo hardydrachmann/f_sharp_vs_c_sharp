@@ -5,13 +5,13 @@ namespace Logic_cSharp
 {
     public class Clogic
     {
-        public List<int> sortList(List<int> list)
+        public static List<int> Sort(List<int> list)
         {
             Quicksort(list.ToArray(), 0, list.Count);
             return list;
         }
 
-        private void Quicksort(int[] list, int left, int right)
+        private static void Quicksort(int[] list, int left, int right)
         {
             int i = left, j = right;
             int pivot = list[(left + right) / 2];
@@ -40,7 +40,7 @@ namespace Logic_cSharp
                 Quicksort(list, i, right);
         }
 
-        public List<int> reverseList(List<int> list)
+        public static List<int> Reverse(List<int> list)
         {
             int[] array = new int[list.Count];
             int i = array.Length;
@@ -50,7 +50,7 @@ namespace Logic_cSharp
             return new List<int>(array);
         }
 
-        public int calculate(List<int> list)
+        public static int Calculate(List<int> list)
         {
             int result = 0;
             foreach (int i in list)
