@@ -1,5 +1,5 @@
 ﻿using Logic_cSharp;
-using Logic_fSharp;
+using FSharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +15,6 @@ namespace f_sharp_vs_c_sharp
     public partial class GUI : Form
     {
         private Clogic cLogic;
-        private Flogic fLogic;
 
         public GUI()
         {
@@ -26,13 +25,6 @@ namespace f_sharp_vs_c_sharp
         private void InitializeLogicClasses()
         {
             cLogic = new Clogic();
-            fLogic = new Flogic();
-
-            if (cLogic != null && fLogic != null)
-            {
-                //lbl_cLogic.Text = "C# logic class instantiated!";
-                //lbl_fLogic.Text = "F# logic class instantiated!";
-            }
         }
 
         
@@ -41,9 +33,10 @@ namespace f_sharp_vs_c_sharp
 
         }
 
-        private void btnReverce_Click(object sender, EventArgs e)
+        private void btnReverse_Click(object sender, EventArgs e)
         {
-
+            int x = 10;
+           FLogic.Reverse(10);
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)

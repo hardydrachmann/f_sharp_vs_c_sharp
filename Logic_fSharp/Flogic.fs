@@ -1,4 +1,7 @@
-﻿namespace Logic_fSharp
+﻿namespace FSharp 
+module FLogic =
+    
 
-type Flogic() = 
-    member this.X = "F#"
+    let Reverse x = 
+        x
+        

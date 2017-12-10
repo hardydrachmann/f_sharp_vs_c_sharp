@@ -1,6 +1,6 @@
 ﻿using f_sharp_vs_c_sharp;
 using Logic_cSharp;
-using Logic_fSharp;
+using FSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
