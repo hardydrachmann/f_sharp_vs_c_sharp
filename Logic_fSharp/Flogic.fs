@@ -1,7 +1,9 @@
 ﻿namespace FSharp 
 module FLogic =
-    
+    open Microsoft.FSharp.Collections
 
-    let Reverse x = 
-        x
-        
+    let rec reverse list = 
+        match list with
+        |[] -> []
+        |[x] -> [x]
+        | head::tail -> reverse tail @ [head]
