@@ -22,22 +22,14 @@ namespace f_sharp_vs_c_sharp
         public GUI()
         {
             InitializeComponent();
-            InitializeLogicClasses();
-        }
-
-        private void InitializeLogicClasses()
-        {
             cLogic = new Clogic();
         }
 
-        
+        // Logic functionality.
         private void btnSort_Click(object sender, EventArgs e)
         {
             Stopwatch timer = new Stopwatch();
-
-            List<int> lst = new List<int>();
-            lst = GenerateRandomList(Int32.Parse(tbListLength.Text));
-            FSharpList<int> fsList = ListModule.OfSeq(lst);
+            FSharpList<int> fsList = generateCompatibleList(Int32.Parse(tbListLength.Text));
             Console.WriteLine("Not Sorted");
             foreach (var item in fsList)
             {
@@ -53,53 +45,61 @@ namespace f_sharp_vs_c_sharp
             {
                 Console.WriteLine(item);
             }
-
-
+            startTime();
+            //FLogic.sort(list);
+            lblSortingF.Text = timeElapsed();
         }
 
         private void btnReverse_Click(object sender, EventArgs e)
         {
-            Stopwatch timer = new Stopwatch();
-            List<int> csList = new List<int>();
-            for (int i = 0; i < 10000 ; i++)
-            {
-                csList.Add(i);
-            }
-            timer.Start();
-            FSharpList<int> fsList = ListModule.OfSeq(csList);
-            FLogic.reverse(fsList);
-            timer.Stop();
-            lblReverceF.Text = timer.ElapsedMilliseconds.ToString() + " ms";
+            FSharpList<int> list = generateCompatibleList(100);
+
+            startTime();
+            FLogic.reverse(list);
+            lblReverceF.Text = timeElapsed();
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            FSharpList<int> list = generateCompatibleList(100);
 
+            startTime();
+            //FLogic.calculate(list);
+            lblReverceF.Text = timeElapsed();
         }
-        
 
 
-
+        // Exit application.
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-
-        private int GenerateRandomNumbers()
+        // Helper methods.
+        private FSharpList<int> generateCompatibleList(int length)
         {
-            int r = random.Next(0, 1000);
-            return r;
+            Random random = new Random();
+            List<int> csList = new List<int>();
+            for (int i = 0; i < length; i++)
+                csList.Add(random.Next(100));
+
+            return ListModule.OfSeq(csList);
         }
 
-        private List<int> GenerateRandomList(int listLength)
+        // Timer
+        private Stopwatch timer = new Stopwatch();
+        private void startTime()
         {
-            List<int> myList = new List<int>();
-            for (int i = 0; i < listLength; i++)
-            {
-                myList.Add(GenerateRandomNumbers());
-            }
-            return myList;
+            timer.Start();
         }
+
+        private string timeElapsed()
+        {
+            timer.Stop();
+            long elapsed = timer.ElapsedMilliseconds;
+            timer.Reset();
+            return elapsed.ToString() + " ms";
+        }
+
     }
 }
