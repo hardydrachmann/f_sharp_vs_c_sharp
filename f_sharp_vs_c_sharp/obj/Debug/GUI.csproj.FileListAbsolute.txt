@@ -103,7 +103,6 @@ C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\bin\Debug\
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\bin\Debug\Logic_cSharp.pdb
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\bin\Debug\Logic_fSharp.pdb
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\bin\Debug\Logic_fSharp.xml
-C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\bin\Debug\FSharp.Core.xml
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\obj\Debug\GUI.csprojResolveAssemblyReference.cache
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\obj\Debug\GUI.csproj.f_sharp_vs_c_sharp.exe.config
 C:\Users\RlxCw\Desktop\f# Eksam\f_sharp_vs_c_sharp\f_sharp_vs_c_sharp\obj\Debug\f_sharp_vs_c_sharp.GUI.resources

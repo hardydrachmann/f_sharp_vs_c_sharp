@@ -17,6 +17,7 @@ namespace f_sharp_vs_c_sharp
     public partial class GUI : Form
     {
         private Clogic cLogic;
+        Random random = new Random();
 
         public GUI()
         {
@@ -27,8 +28,23 @@ namespace f_sharp_vs_c_sharp
         // Logic functionality.
         private void btnSort_Click(object sender, EventArgs e)
         {
-            FSharpList<int> list = generateCompatibleList(100);
+            Stopwatch timer = new Stopwatch();
+            FSharpList<int> fsList = generateCompatibleList(Int32.Parse(tbListLength.Text));
+            Console.WriteLine("Not Sorted");
+            foreach (var item in fsList)
+            {
+                Console.WriteLine(item);
+            }
 
+            timer.Start();
+            FLogic.quicksort(fsList);
+            timer.Stop();
+            lblSortingF.Text = timer.ElapsedMilliseconds.ToString() + " ms";
+            Console.WriteLine("Sorted");
+            foreach (var item in FLogic.quicksort(fsList))
+            {
+                Console.WriteLine(item);
+            }
             startTime();
             //FLogic.sort(list);
             lblSortingF.Text = timeElapsed();
