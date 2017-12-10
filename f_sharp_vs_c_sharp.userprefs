@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{0BDF0439-7D09-42F7-8618-E706B39C80FC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Logic_cSharp/Clogic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="f_sharp_vs_c_sharp/GUI.cs">
     <Files>
-      <File FileName="LOGIC_Fsharp/Flogic.fs" Line="5" Column="5" />
-      <File FileName="Logic_cSharp/Clogic.cs" Line="10" Column="13" />
+      <File FileName="LOGIC_Fsharp/Flogic.fs" Line="20" Column="67" />
+      <File FileName="f_sharp_vs_c_sharp/GUI.cs" Line="27" Column="13" />
+      <File FileName="Logic_cSharp/Clogic.cs" Line="9" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
