@@ -79,6 +79,5 @@ namespace f_sharp_vs_c_sharp
             timer.Reset();
             return elapsed.ToString() + " ms";
         }
-
     }
 }
