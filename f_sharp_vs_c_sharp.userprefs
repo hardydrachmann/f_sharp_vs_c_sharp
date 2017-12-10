@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{0BDF0439-7D09-42F7-8618-E706B39C80FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Logic_cSharp/Clogic.cs">
+    <Files>
+      <File FileName="LOGIC_Fsharp/Flogic.fs" Line="5" Column="5" />
+      <File FileName="Logic_cSharp/Clogic.cs" Line="10" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
