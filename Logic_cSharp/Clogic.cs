@@ -53,11 +53,10 @@ namespace Logic_cSharp
         public static int Calculate(List<int> list)
         {
             int result = 0;
-            foreach (int i in list)
-                result += i;
+            foreach (int number in list)
+                result += number;
 
             return result;
         }
-
     }
 }

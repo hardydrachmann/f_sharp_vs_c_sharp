@@ -41,11 +41,11 @@ namespace f_sharp_vs_c_sharp
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             startTime();
-            //FLogic.calculate(FSList());
+            FLogic.calculate(FSList());
             lblCalculateF.Text = timeElapsed();
 
             startTime();
-            //CLogic.calculate(CSList());
+            Clogic.Calculate(CSList());
             lblCalculateC.Text = timeElapsed();
         }
 
